@@ -1,0 +1,57 @@
+# 编译生成的文件
+build/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+*.lib
+*.dll
+
+# CMake生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE特定的文件
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.suo
+*.mode1v3
+*.mode2v3
+*.vcproj
+*.DS_Store    # MacOS特定的文件
+Thumbs.db     # Windows系统的文件
+
+# 日志和调试文件
+*.log
+*.tmp
+*.pid
+*.stackdump
+
+# 自动生成的文档或报告
+docs/generated/
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# 包管理器文件 (如 Conan, vcpkg)
+conanbuildinfo.txt
+conan.lock
+vcpkg_installed/
+vcpkg/
+
+# 其他可能生成的临时文件
+*.swp        # Vim 临时文件
+*.swo
+*~           # 临时文件
+*.bak        # 备份文件

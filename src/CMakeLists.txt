@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0)
+project(MYCODE)
+aux_source_directory(./ SRC)
+include_directories(${HEAD_PATH})
+set(EXECUTABLE_OUTPUT_PATH ${EXEC_PATH})
+link_directories(${LIB_PATH})
+add_executable(${MyCode} ${SRC} "getInfo.cpp")
+target_link_libraries(${MyCode} ${SORT_LIB})
