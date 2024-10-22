@@ -15,5 +15,4 @@ set(MyCode myCode)
 # 添加子目录
 add_subdirectory(src)
 add_subdirectory(3rd)
-add_subdirectory(myCode)
 
