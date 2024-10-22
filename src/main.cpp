@@ -2,14 +2,17 @@
 #include <iomanip>
 #include <iostream>
 #include "getInfo.cpp"
+#include "limits.cpp"
 
 using namespace std;
 
 int main()
 {
-    std::cout << "hello world" << std::endl;;
+    //std::cout << "hello world" << std::endl;;
 
-    getinfos();
+    //getinfos();
+
+    limits();
 
     return 0;
 }
