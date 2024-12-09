@@ -3,6 +3,7 @@
 #include <iostream>
 #include "getInfo.cpp"
 #include "limits.cpp"
+#include "exceed.cpp"
 
 using namespace std;
 
@@ -12,7 +13,9 @@ int main()
 
     //getinfos();
 
-    limits();
+    //limits();
+
+    exceed();
 
     return 0;
 }

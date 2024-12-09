@@ -27,5 +27,6 @@ static int limits()
 	cout << "Bits per byte : " << CHAR_BIT << endl;
 	cout << CHAR_MIN << endl;
 	cout << CHAR_MAX << endl;
+	cout << sizeof(int) << endl;
 	return 0;
 }
